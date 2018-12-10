@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<crossword>
+    <word
+            number="1"
+            orientation="vertical"
+            start_x="3"
+            start_y="0"
+            question="Город в ФРГ"
+            answer="АХЕН"/>
+    <word
+            number="3"
+            orientation="horizontal"
+            start_x="1"
+            start_y="1"
+            question="Наиболее многочисленный народ Эфиопии."
+            answer="АМХАРА"/>
+    <word
+            number="3"
+            orientation="vertical"
+            start_x="1"
+            start_y="1"
+            question="Гора на Карсском плоскогорье."
+            answer="АЛАДЖА"/>
+    <word
+            number="4"
+            orientation="vertical"
+            start_x="6"
+            start_y="1"
+            question="Столица европейского государства."
+            answer="АФИНЫ"/>
+
+    <word
+            number="7"
+            orientation="horizontal"
+            start_x="0"
+            start_y="4"
+            question="Город в Западной Сахаре, иначе Эль-Аюн."
+            answer="ААЮН"/>
+    <word
+            number="12"
+            orientation="horizontal"
+            start_x="1"
+            start_y="6"
+            question="Город на Ю. Турции, на р. Сейхан."
+            answer="АДАНА"/>
+</crossword>

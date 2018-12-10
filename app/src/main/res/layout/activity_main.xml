@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        tools:context=".features.crossword.presentation.CrossWordActivity"
+        android:background="@color/white">
+    <FrameLayout
+            android:id="@+id/frame_cross_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TableLayout
+                android:id="@+id/crossTable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        </TableLayout>
+    </FrameLayout>
+    <FrameLayout
+            android:id="@+id/frame_questions"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:visibility="gone">
+        <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>
