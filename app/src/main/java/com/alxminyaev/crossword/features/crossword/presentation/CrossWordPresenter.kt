@@ -20,7 +20,7 @@ class CrossWordPresenter(private val crossWordInteractor: CrossWordInteractor) :
             }
 
             override fun onFailure(throwable: Throwable) {
-                Log.e("ERORR", throwable.message, throwable)
+                Log.e("ERROR", throwable.message, throwable)
             }
 
         })

@@ -6,4 +6,7 @@ import com.alxminyaev.crossword.features.MvpView
 interface CrossWordView : MvpView {
     fun createAndShowCrossWord(crossWord: CrossWord)
 
+    fun showQuestions()
+
+    fun hideQuestions()
 }

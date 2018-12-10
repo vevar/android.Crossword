@@ -27,6 +27,9 @@ class CellEditText: AppCompatEditText{
     override fun onTextChanged(text: CharSequence?, start: Int, lengthBefore: Int, lengthAfter: Int) {
         super.onTextChanged(text, start, lengthBefore, lengthAfter)
         isRightChar = !text.isNullOrEmpty() && text!![0] == rightChar
+        if (isRightChar){
+            this.isEnabled = false
+        }
     }
 
 }
